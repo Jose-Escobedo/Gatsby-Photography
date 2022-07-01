@@ -86,6 +86,7 @@ export const NavLinks = styled(Link)`
   display: flex;
   text-decoration: none;
   align-items: center;
+  font-size: 1.1rem;
   padding: 0.5em 1em;
   height: 100%;
   font-family: "Montserrat", sans-serif;

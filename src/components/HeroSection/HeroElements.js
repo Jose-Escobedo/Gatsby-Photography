@@ -41,9 +41,8 @@ export const HeroButton = styled.button`
   outline: none;
   border: none;
   cursor: pointer;
-  animation-name: moveDown;
-  animation: moveDown 0.5s linear infinite alternate;
-  animation-delay: 2s;
+  animation: moveDown 0.5s ease-in-out infinite alternate;
+  animation-delay: 1.8s;
 
   &:hover {
     transition: all 0.5s ease-out;
@@ -51,6 +50,15 @@ export const HeroButton = styled.button`
 
   @media screen and (max-width: 960px) {
     font-size: 1.2rem;
+  }
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 
   @keyframes moveDown {
