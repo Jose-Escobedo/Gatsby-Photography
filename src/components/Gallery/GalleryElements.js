@@ -28,7 +28,7 @@ export const LandscapeImageGrid = styled.div`
   .image-item:nth-child(5) {
     grid-column-end: span 2;
   }
-  .image-item:nth-child(9) {
+  .image-item:nth-child(10) {
     grid-row-start: 4;
     grid-column-end: span 2;
   }
@@ -49,10 +49,10 @@ export const CarsImageGrid = styled.div`
   padding: 0 2em;
   width: 100%;
 
-  .image-item:nth-child(5) {
+  .image-item:nth-child(4) {
     grid-column-end: span 2;
   }
-  .image-item:nth-child(9) {
+  .image-item:nth-child(10) {
     grid-row-start: 4;
     grid-column-end: span 2;
   }
@@ -73,11 +73,24 @@ export const FoodImageGrid = styled.div`
   padding: 0 2em;
   width: 100%;
 
-  .image-item:nth-child(5) {
-    grid-column-end: span 2;
-  }
   .image-item:nth-child(9) {
     grid-row-start: 4;
+    grid-column-end: span 2;
+  }
+  .image-item:nth-child(7) {
+    grid-row-start: 2;
+    grid-column-end: span 3;
+  }
+  .image-item:nth-child(4) {
+    grid-row-start: 3;
+    grid-column-end: span 2;
+  }
+  .image-item:nth-child(5) {
+    grid-row-start: 4;
+    grid-column-end: span 1;
+  }
+  .image-item:nth-child(10) {
+    grid-row-start: 5;
     grid-column-end: span 2;
   }
   .image-item img:hover {
