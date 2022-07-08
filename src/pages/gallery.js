@@ -7,7 +7,7 @@ import { GalleryImageContainer } from "../components/Gallery/GalleryElements"
 const gallery = () => {
   return (
     <Layout>
-      <Seo title="Home" />
+      <Seo title="Gallery" />
       <GalleryImageContainer>
         <h1>Gallery</h1>
         <h2>Landscape/Animals</h2>

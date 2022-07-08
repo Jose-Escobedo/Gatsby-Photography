@@ -2,10 +2,38 @@ import styled from "styled-components"
 
 export const GalleryImageContainer = styled.div`
   text-align: center;
-  margin: 150px;
+  margin: 150px 0;
   h1 {
-    margin-bottom: 4em;
+    text-align: center;
+    background: url("../images/Landscape/trees-sun.jpg") center center/ cover
+      no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-top: -80px;
+    color: #fff;
+    font-size: 8rem;
   }
+
+  /* text-align: center;
+  background: url("../images/Landscape/trees-sun.jpg") center center/ cover
+    no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  margin-top: -80px;
+  color: #fff;
+  font-size: 8rem; */
 `
 export const LandscapeImageGrid = styled.div`
   display: grid;
@@ -15,13 +43,14 @@ export const LandscapeImageGrid = styled.div`
   margin: 0 auto;
   max-width: 1000px;
   padding: 0 2em;
+  width: 100%;
 
   .image-item:nth-child(5) {
     grid-column-end: span 2;
   }
   .image-item:nth-child(9) {
-    grid-column-end: span 2;
     grid-row-start: 4;
+    grid-column-end: span 2;
   }
   .image-item img:hover {
     transform: scale(1.1);

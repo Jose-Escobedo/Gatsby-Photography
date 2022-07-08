@@ -11,7 +11,7 @@ const Landscape = () => {
           node {
             base
             childImageSharp {
-              fluid {
+              fluid(maxHeight: 600, maxWidth: 600) {
                 ...GatsbyImageSharpFluid
               }
             }
