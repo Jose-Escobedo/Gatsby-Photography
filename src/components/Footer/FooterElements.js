@@ -23,6 +23,7 @@ export const SocialMediaWrap = styled.div`
 
   @media screen and (max-width: 820px) {
     flex-direction: column;
+    justify-content: center;
   }
 `
 
@@ -35,6 +36,9 @@ export const SocialLogo = styled(Link)`
   display: flex;
   align-items: center;
   margin-bottom: 1em;
+  @media screen and (max-width: 680px) {
+    width: 100%;
+  }
 `
 export const SocialIcon = styled(DiScala)`
   margin-right: 0.8em;
@@ -42,6 +46,7 @@ export const SocialIcon = styled(DiScala)`
 export const WebsiteRights = styled.small`
   color: #fff;
   margin-bottom: 1em;
+  padding: 1em;
   font-family: "Ubuntu", sans-serif;
 `
 export const SocialIcons = styled.div`
