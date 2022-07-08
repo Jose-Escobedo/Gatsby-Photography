@@ -20,7 +20,7 @@ const HeroSection = () => {
         // This is a presentational image, so the alt should be an empty string
         alt=""
         // Assisi, Perúgia, Itália by Bernardo Ferrari, via Unsplash
-        src={"../../images/background2.JPG"}
+        src={"../../images/Landscape/mountain-top.JPG"}
         formats={["auto", "webp", "avif"]}
       />
       <div
