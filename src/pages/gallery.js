@@ -5,6 +5,7 @@ import Seo from "../components/seo"
 import Landscape from "../components/Categories/Landscape"
 import { GalleryImageContainer } from "../components/Gallery/GalleryElements"
 import Cars from "../components/Categories/Cars"
+import Food from "../components/Categories/Food"
 
 const gallery = () => {
   return (
@@ -39,6 +40,8 @@ const gallery = () => {
         <Landscape />
         <h2>Cars</h2>
         <Cars />
+        <h2>Food</h2>
+        <Food />
       </GalleryImageContainer>
     </Layout>
   )
