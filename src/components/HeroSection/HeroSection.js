@@ -9,17 +9,12 @@ const HeroSection = () => {
       <StaticImage
         style={{
           gridArea: "1/1",
-          // You can set a maximum height for the image, if you wish.
-          // maxHeight: 600,
           opacity: "80%",
           filter: "blur(2px)",
         }}
         layout="fullWidth"
-        // You can optionally force an aspect ratio for the generated image
         aspectRatio={0.8 / 1}
-        // This is a presentational image, so the alt should be an empty string
-        alt=""
-        // Assisi, Perúgia, Itália by Bernardo Ferrari, via Unsplash
+        alt="mountain-top-main"
         src={"../../images/Landscape/mountain-top.JPG"}
         formats={["auto", "webp", "avif"]}
       />

@@ -2,38 +2,16 @@ import styled from "styled-components"
 
 export const GalleryImageContainer = styled.div`
   text-align: center;
-  margin: 150px 0;
-  h1 {
-    text-align: center;
-    background: url("../images/Landscape/trees-sun.jpg") center center/ cover
-      no-repeat;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-    object-fit: contain;
-    margin-top: -80px;
-    color: #fff;
-    font-size: 8rem;
-  }
+  margin-bottom: 150px;
 
-  /* text-align: center;
-  background: url("../images/Landscape/trees-sun.jpg") center center/ cover
-    no-repeat;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-  object-fit: contain;
-  margin-top: -80px;
-  color: #fff;
-  font-size: 8rem; */
+  h1 {
+    color: black;
+    font-size: 7rem;
+    padding: 0.5em 0.5em;
+  }
+  h2 {
+    margin-top: 5em;
+  }
 `
 export const LandscapeImageGrid = styled.div`
   display: grid;
