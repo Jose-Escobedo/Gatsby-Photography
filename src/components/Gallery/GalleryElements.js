@@ -1,4 +1,7 @@
 import styled from "styled-components"
+import "@fontsource/montserrat/200.css"
+import "@fontsource/montserrat/500.css"
+import "@fontsource/montserrat"
 
 export const GalleryImageContainer = styled.div`
   text-align: center;
@@ -8,11 +11,14 @@ export const GalleryImageContainer = styled.div`
     color: black;
     font-size: 7rem;
     padding: 0.5em 0.5em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
   }
   h2 {
     margin-top: 3em;
     margin-bottom: 3em;
     font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
   }
 `
 export const LandscapeImageGrid = styled.div`

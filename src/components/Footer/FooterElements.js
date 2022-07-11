@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import { Link } from "gatsby"
 import { DiScala } from "react-icons/di"
+import "@fontsource/montserrat"
 
 export const FooterContainer = styled.div`
   background-color: #101522;
@@ -47,7 +48,8 @@ export const WebsiteRights = styled.small`
   color: #fff;
   margin-bottom: 1em;
   padding: 1em;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  width: 50%;
 `
 export const SocialIcons = styled.div`
   display: flex;
