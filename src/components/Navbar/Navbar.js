@@ -38,7 +38,7 @@ const Navbar = () => {
           <NavBarContainer>
             <NavLogo to="/">
               <NavIcon />
-              ESCOBEDO PHOTOGRAPHY
+              <h2>ESCOBEDO PHOTOGRAPHY</h2>
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}

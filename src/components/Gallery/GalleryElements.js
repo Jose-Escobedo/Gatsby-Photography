@@ -13,12 +13,28 @@ export const GalleryImageContainer = styled.div`
     padding: 0.5em 0.5em;
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
+    @media screen and (max-width: 560px) {
+      font-size: 4rem;
+      padding: 20px;
+    }
+    @media screen and (max-width: 400px) {
+      font-size: 3rem;
+      padding: 20px;
+    }
   }
   h2 {
     margin-top: 3em;
     margin-bottom: 3em;
     font-size: 2.5rem;
     font-family: "Montserrat", sans-serif;
+    @media screen and (max-width: 560px) {
+      font-size: 2rem;
+      padding: 20px;
+    }
+    @media screen and (max-width: 400px) {
+      font-size: 1rem;
+      padding: 20px;
+    }
   }
 `
 export const LandscapeImageGrid = styled.div`
@@ -92,7 +108,7 @@ export const FoodImageGrid = styled.div`
     grid-column-end: span 2;
   }
   .image-item:nth-child(5) {
-    grid-row-start: 4;
+    grid-row-start: 3;
     grid-column-end: span 1;
   }
   .image-item:nth-child(10) {

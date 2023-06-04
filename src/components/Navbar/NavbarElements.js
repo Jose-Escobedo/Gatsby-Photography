@@ -16,7 +16,8 @@ export const Nav = styled.nav`
   top: 0;
   z-index: 999;
   @media screen and (max-width: 960px) {
-    background: ${({ click }) => (click ? "#FFF" : "transparent")};
+    /* background: ${({ click }) => (click ? "#FFF" : "transparent")}; */
+    background: #fff;
     transition: all 0.8s ease;
   }
 `
@@ -37,6 +38,12 @@ export const NavLogo = styled(Link)`
   display: flex;
   align-items: center;
   font-size: 1.3rem;
+  h2 {
+    font-size: 1.4rem;
+    @media screen and (max-width: 500px) {
+      font-size: 0.8rem;
+    }
+  }
 `
 
 export const NavIcon = styled(DiScala)`

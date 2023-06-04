@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -7,7 +7,7 @@ import { GalleryImageContainer } from "../components/Gallery/GalleryElements"
 import Cars from "../components/Categories/Cars"
 import Food from "../components/Categories/Food"
 
-const gallery = () => {
+const gallery = ({ location }) => {
   return (
     <Layout>
       <Seo title="Gallery" />
