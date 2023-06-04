@@ -159,8 +159,7 @@ const ContactFormStyled = styled.div`
     background-color: white;
     color: black;
     border: none;
-    border: 1px solid white;
-    border-bottom: 1px solid black;
+    border: 1px solid black;
     padding: 0.5em 0.5em;
     @media screen and (max-width: 760px) {
       font-size: 0.9rem;
@@ -172,13 +171,12 @@ const ContactFormStyled = styled.div`
 
   textarea {
     width: 100%;
-    max-width: 100%;
-    max-height: 150%;
     background-color: white;
     color: black;
     letter-spacing: 1px;
-    border: 1px solid white;
+    border: 1px solid black;
     padding: 0.5em 0.5em;
+    resize: none;
     @media screen and (max-width: 760px) {
       font-size: 0.9rem;
     }
