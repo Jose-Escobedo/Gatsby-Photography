@@ -26,6 +26,8 @@ export const GalleryImageContainer = styled.div`
     margin-top: 3em;
     margin-bottom: 3em;
     font-size: 2.5rem;
+    font-weight: 500;
+
     font-family: "Montserrat", sans-serif;
     @media screen and (max-width: 560px) {
       font-size: 2rem;
@@ -92,7 +94,7 @@ export const FoodImageGrid = styled.div`
   grid-auto-rows: minmax(50px, auto);
   margin: 0 auto;
   max-width: 1000px;
-  padding: 0 2em;
+  padding: 20px;
   width: 100%;
 
   .image-item:nth-child(9) {
@@ -115,6 +117,11 @@ export const FoodImageGrid = styled.div`
     grid-row-start: 5;
     grid-column-end: span 2;
   }
+  .image-item:nth-child(2) {
+    grid-row-start: 6;
+    grid-column-end: span 2;
+  }
+
   .image-item img:hover {
     transform: scale(1.1);
     transition: 0.6s all ease !important;
