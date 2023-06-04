@@ -2,6 +2,7 @@ import React from "react"
 import { HeroContainer, HeroH1, HeroP, HeroButton } from "./HeroElements"
 import { StaticImage } from "gatsby-plugin-image"
 import { BsChevronDoubleDown } from "react-icons/bs"
+import scrollTo from "gatsby-plugin-smoothscroll"
 
 const HeroSection = () => {
   return (
@@ -28,7 +29,7 @@ const HeroSection = () => {
           display: "grid",
         }}
       >
-        <HeroButton>
+        <HeroButton onClick={() => scrollTo("#about")}>
           <BsChevronDoubleDown />
         </HeroButton>
       </div>

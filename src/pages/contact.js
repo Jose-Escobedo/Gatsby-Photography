@@ -196,7 +196,7 @@ const ContactFormStyled = styled.div`
     border-radius: 0.2em;
     border: transparent;
     padding-top: 0.2em;
-    background: linear-gradient(darkgrey, black) padding-box;
+    background: black;
     cursor: pointer;
   }
 

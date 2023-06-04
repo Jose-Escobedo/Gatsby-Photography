@@ -50,6 +50,9 @@ export const WebsiteRights = styled.small`
   padding: 1em;
   font-family: "Montserrat", sans-serif;
   width: 50%;
+  @media screen and (max-width: 500px) {
+    font-size: 0.7rem;
+  }
 `
 export const SocialIcons = styled.div`
   display: flex;
